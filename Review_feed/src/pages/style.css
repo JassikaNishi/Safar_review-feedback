@@ -1,0 +1,32 @@
+body {
+    background-image: url("../assets/bg.jpeg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+  
+  .feedback-container{
+    width: 40vw;
+  }
+  .container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 80vw;
+    
+  }
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.list-group {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.list-group-item {
+    margin-bottom: 10px;
+}
